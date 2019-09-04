@@ -1,5 +1,5 @@
 FROM python:3.6
 
-RUN pip install cryptoverse==0.0.1.dev3
+RUN pip install cryptoverse==0.0.1.dev6
 
-CMD ["python"]
+CMD ["python", "-ic", "import cryptoverse"]
